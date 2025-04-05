@@ -242,9 +242,14 @@ nav,
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-#cr img {
+#cr a[href*="facebook.com"] img {
   width: 45px; 
   height: 45px;
+}
+#cr a[href*="github.com"] img {
+  width: 32px; /* adjust as needed */
+  height: 32px;
+  margin-bottom: 7px;
 }
 
 #cr a {
